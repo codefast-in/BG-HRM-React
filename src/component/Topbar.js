@@ -7,7 +7,7 @@ export default function Topbar() {
         <div className="row d-flex justify-content-between align-items-center">
           <div className="col-3 d-flex justify-content-center align-items-center">
             <img src="/img/companylogo.png" height={"70px"} alt="logo" />
-            <h1 className="text-light mx-2">Beangate</h1>
+            <h1 className="text-light mx-2 bg-logo-name-topbar">Beangate</h1>
           </div>
           <div className="col-5 d-flex justify-content-around align-items-center ">
             <div className="d-flex justify-content-center align-items-center mt-3">
@@ -59,7 +59,9 @@ export default function Topbar() {
               <i className="bi bi-three-dots"></i>
             </button>
             <ul className="dropdown-menu p-2 mt-3">
-              <li>Log Out</li>
+              <li><a href="Loginpage" class="text-decoration-none text-dark">LogOut</a>
+                {/* <link rel="stylesheet" href="Loginpage" placeholder='Logout' /> */}
+              </li>
             </ul>
           </div>
         </div>
